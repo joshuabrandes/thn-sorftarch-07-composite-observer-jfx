@@ -16,6 +16,7 @@ public interface OpenMensaAPI {
 
 	/**
 	 * example request: GET /canteens/269/days/2023-05-02/meals
+	 * Documentation: <a href="https://docs.openmensa.org/api/v2/canteens/meals/">Web</a>
 	 * @param canteenId canteenId für Nuremberg is 269
 	 * @param date Date in format yyyy-MM-dd (ISO-standard)
 	 * @return List of meals for that day
